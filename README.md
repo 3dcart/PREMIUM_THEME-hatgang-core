@@ -1,0 +1,1 @@
+# PREMIUM_THEME-hatgang-core
