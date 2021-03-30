@@ -7,6 +7,21 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .page-content {
 	flex: 1 0 auto;
 }
@@ -178,7 +193,7 @@ section.navbar-wrapper.affix {
     line-height: 48px;
     border-radius: 100%;
     width: 48px;
-    font-size: 10px;
+    font-size: 11px;
 }
 @media (max-width: 1023px) {
   .navbar-header {
@@ -422,7 +437,7 @@ section.navbar-wrapper.affix {
 
 
 .site-footer {
-    background-color: #858585;
+    background-color: #4D4D4D;
     padding: 55px 0 0;
     color: #fff;
     font-family: 'Nunito', sans-serif;
@@ -1019,7 +1034,7 @@ span.freeshipping {
 .hpfooter-promo {
     padding: 30px 0;
 }
-.hpfooter-promo h4 {
+.hpfooter-promo h4,.hpfooter-promo h2 {
 	font-size: 24px;
     font-family: 'Nunito', sans-serif;
     color: #1d4748;
@@ -1058,7 +1073,7 @@ span.freeshipping {
 .home-page .products-section {
 	padding: 10px 0;
 }
-.home-page .products-section h2 {
+.home-page .products-section h2,.home-page .products-section h1 {
     font-size: 36px;
     margin: 0 0 30px;
 }
@@ -1103,7 +1118,7 @@ span.freeshipping {
 	.product-items.product-items-2 .product-item {
 		width: 50%;
 	}
-	.hpfooter-promo h4 {
+	.hpfooter-promo h4,.hpfooter-promo h2 {
 		font-size: 22px;
 		line-height: 1.5;
 		margin: 0 0 30px;
