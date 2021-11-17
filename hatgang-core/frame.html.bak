@@ -80,7 +80,7 @@
 
                         <div class="top-user">
                             <!--START: username-->
-                            <a href="logout.asp"><i role="presentation" class="icon-user"></i> [frame_logout-link-text]</a>
+                            <a href="logout.asp"><i role="presentation" class="icon-user"></i> Hello, Guest</a>
                             <!--END: username-->
                             <!--START: login-->
                             <a href="myaccount.asp"><i role="presentation" class="icon-user"></i> Hello, Guest</a>
