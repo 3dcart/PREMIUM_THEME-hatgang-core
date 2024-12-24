@@ -145,7 +145,7 @@ jQuery(document).ready(function () {
 jQuery(window).load(function () {
     moveMenu();
 
-    jQuery('#category-navbar').affix({
+    jQuery('#navWrapper').affix({
         offset: {
             top: 142
         }

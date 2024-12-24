@@ -138,14 +138,14 @@ section.navbar-wrapper.affix {
     border: none;
     background-color: #fff;
 }
-#category-navbar .nav > li > a {
+#navWrapper .nav > li > a {
     padding: 15px 20px;
 }
-#category-navbar .navbar-nav {
+#navWrapper .navbar-nav {
     float: none;
     text-align: center;
 }
-#category-navbar .navbar-nav > li {
+#navWrapper .navbar-nav > li {
     display: inline-block;
     float: none;
 }
