@@ -1,4 +1,4 @@
-# 3dcart Premium Theme: hatgang-core
+# 3dcart Free Theme: hatgang-core
 
 ## Installation
 
